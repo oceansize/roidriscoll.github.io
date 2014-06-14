@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[ROI DRISCOLL]]></title>
   <link href="http://roidriscoll.github.io/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-14T20:26:45+01:00</updated>
+  <updated>2014-06-14T20:58:30+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Roi Driscoll]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octoblog - Initial Commit]]></title>
+    <link href="http://roidriscoll.github.io/blog/2014/06/14/octoblog-initial-commit/"/>
+    <updated>2014-06-14T20:32:19+01:00</updated>
+    <id>http://roidriscoll.github.io/blog/2014/06/14/octoblog-initial-commit</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
