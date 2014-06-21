@@ -4,7 +4,7 @@
   <title><![CDATA[ROI DRISCOLL]]></title>
   <link href="http://roidriscoll.github.io/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-21T14:02:03+01:00</updated>
+  <updated>2014-06-21T14:04:24+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
@@ -34,13 +34,13 @@
 </pre></td><td class='code'><pre><code class=''><span class='line'>gem install seeing_is_believing</span></code></pre></td></tr></table></div></figure>
 
 
-<p>Then you need to navigate to:</p>
+<p>Then you need to navigate to the following folder:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages</span></code></pre></td></tr></table></div></figure>
 
 
-<p>and clone:</p>
+<p>and inside of that directory, clone this repo:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/JoshCheek/sublime-text-2-seeing-is-believing.git SeeingIsBelieving</span></code></pre></td></tr></table></div></figure>
@@ -93,15 +93,6 @@ Next up, you need to make a wrapper for Sublime (this is the bit that I found co
 <p>Well there you have it &ndash; instant win! I strongly suggest that you take the time to watch Josh&rsquo;s video (and browse the documention I linked to earlier) &ndash; I have directly referenced a lot of the material for this article and I cannot recommend this enough as a tool to get your head around what ruby is doing when it evaluates your code.</p>
 
 <p>Happy coding! ^_^</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octoblog - Initial Commit]]></title>
-    <link href="http://roidriscoll.github.io/blog/2014/06/14/octoblog-initial-commit/"/>
-    <updated>2014-06-14T20:32:19+01:00</updated>
-    <id>http://roidriscoll.github.io/blog/2014/06/14/octoblog-initial-commit</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
