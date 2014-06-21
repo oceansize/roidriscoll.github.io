@@ -4,7 +4,7 @@
   <title><![CDATA[ROI DRISCOLL]]></title>
   <link href="http://roidriscoll.github.io/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-21T13:56:08+01:00</updated>
+  <updated>2014-06-21T14:02:03+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
@@ -22,11 +22,11 @@
 
 <p>There is also a kind of false sense of security that can set in when you&rsquo;ve been a Mac user for your entire adult life, and have not traditionally had much cause to worry about virus issues etc- so to just type three words into your iTerm and wait for your latest library to make itself comfortable in your filesystem takes little effort. This is something I have noticed and am now very mindful of &ndash; but I digress&hellip;</p>
 
-<p>This post is really to draw your attention to a frankly wonderful wee gem I found this week, called &lsquo;Seeing Is Believing&rsquo;, developed by <a href="Mr%20Josh%20Cheek">http://joshcheek.com/seeing_is_believing</a>. Base on an existing gem called <a href="rcodetools">https://rubygems.org/gems/rcodetools</a>, it automagically places a comment at the end of each line of ruby code containing the evaluation. Pretty friggin&#8217; useful for a beginner. (You can see a video of this little beaut being demonstrated <a href="here">http://vimeo.com/73866851</a></p>
+<p>This post is really to draw your attention to a frankly wonderful wee gem I found this week, called &lsquo;Seeing Is Believing&rsquo;, developed by <a href="http://joshcheek.com/seeing_is_believing">Mr Josh Cheek</a>. Base on an existing gem called <a href="https://rubygems.org/gems/rcodetools">rcodetools</a>, it automagically places a comment at the end of each line of ruby code containing the evaluation. Pretty friggin&#8217; useful for a beginner. You can see a video of this little beaut being demonstrated <a href="http://vimeo.com/73866851">here</a>.</p>
 
-<p>So how could this be even better Roi? How about Sublime Text integration? <a href="Well%20hello%20there,%20sexy">https://github.com/JoshCheek/sublime-text-2-seeing-is-believing</a> (there is also support for Textmate 1-2 and Vim)</p>
+<p>So how could this be even better Roi? How about Sublime Text integration? <a href="https://github.com/JoshCheek/sublime-text-2-seeing-is-believing">Ding Dong!</a> (Josh also supports Textmate 1-2 and Vim)</p>
 
-<p>There is one wee-tiny-little catch &ndash; if you&rsquo;re new at this stuff, the documentation is a little bit sparse (I found the whole rvm wrapper thing a bit mysterious to say the least), so I thought I would do a quick write-up. Now bear in mind that I work with a ruby version of 2.1.1 on a mac using rvm <a href="Ruby%20Version%20Manager">https://rvm.io/rvm/basics</a> so I can only tell you what worked for me, and this is it.</p>
+<p>There is one wee-tiny-little catch &ndash; if you&rsquo;re new at this stuff, the documentation is a little bit sparse (I found the whole rvm wrapper thing a bit mysterious to say the least), so I thought I would do a quick write-up. Now bear in mind that I work with a ruby version of 2.1.1 on a mac using rvm <a href="https://rvm.io/rvm/basics">Ruby Version Manager</a> so I can only tell you what worked for me, and this is it.</p>
 
 <p>First one must install the gem:</p>
 
@@ -46,7 +46,7 @@
 </pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/JoshCheek/sublime-text-2-seeing-is-believing.git SeeingIsBelieving</span></code></pre></td></tr></table></div></figure>
 
 
-<p>If this is confusing for you, I would recommend researching into how to navigate your file system using the <a href="command%20line">http://learncodethehardway.org/cli/book/cli-crash-course.html</a> and basic usage of <a href="Git">https://try.github.io</a>.
+<p>If this is confusing for you, I would recommend researching into how to navigate your file system using the <a href="http://learncodethehardway.org/cli/book/cli-crash-course.html">command line</a> and basic usage of <a href="https://try.github.io">Git</a>.
 Next up, you need to make a wrapper for Sublime (this is the bit that I found confusing), and for this you need to know which version of ruby you are currently running. On my setup, I can type <code>ruby -v</code> and am rewarded with the output:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
