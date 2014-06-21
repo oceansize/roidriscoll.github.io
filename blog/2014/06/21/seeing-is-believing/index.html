@@ -91,20 +91,42 @@
   </header>
 
 
-<div class="entry-content"><p>Since embarking on my programming journey, I have to admit &ndash; I have gone a little gem-crazy. It&rsquo;s just so EASY to type &lsquo;gem install the_promise_of_magic&rsquo;. I think that&rsquo;s one of the more dangerous aspects of living in the command line. When I&rsquo;m considering installing something via the browser, there are a multitude of clues to help you ascertain whether or not a binary is legit, not least how polished their site looks.
-There is also a kind of false sense of security that can set in when you&rsquo;ve been a Mac user for your entire adult life, and have not traditionally had much cause to worry about virus issues etc- so to just type three words into your iTerm and wait for your latest library to make itself comfortable in your filesystem takes little effort. This is something I have noticed and am now very mindful of &ndash; but I digress&hellip;
-This post is really to draw your attention to a frankly wonderful wee gem I found this week, called &lsquo;Seeing Is Believing&rsquo;, developed by <a href="Mr%20Josh%20Cheek">http://joshcheek.com/seeing_is_believing</a>. Base on an existing gem called <a href="rcodetools">https://rubygems.org/gems/rcodetools</a>, it automagically places a comment at the end of each line of ruby code containing the evaluation. Pretty friggin&#8217; useful for a beginner. (You can see a video of this little beaut being demonstrated <a href="here">http://vimeo.com/73866851</a>
-So how could this be even better Roi? How about Sublime Text integration? <a href="Well%20hello%20there,%20sexy">https://github.com/JoshCheek/sublime-text-2-seeing-is-believing</a> (there is also support for Textmate 1-2 and Vim)
-There is one wee-tiny-little catch &ndash; if you&rsquo;re new at this stuff, the documentation is a little bit sparse (I found the whole rvm wrapper thing a bit mysterious to say the least), so I thought I would do a quick write-up. Now bear in mind that I work with a ruby version of 2.1.1 on a mac using rvm <a href="Ruby%20Version%20Manager">https://rvm.io/rvm/basics</a> so I can only tell you what worked for me, and this is it.
-First one must install the gem:</p>
+<div class="entry-content"><p>Since embarking on my programming journey, I have to admit &ndash; I have gone a little gem-crazy. It&rsquo;s just so EASY to type &lsquo;gem install the_promise_of_magic&rsquo;. I think that&rsquo;s one of the more dangerous aspects of living in the command line. When I&rsquo;m considering installing something via the browser, there are a multitude of clues to help you ascertain whether or not a binary is legit, not least how polished their site looks.</p>
+
+<p>There is also a kind of false sense of security that can set in when you&rsquo;ve been a Mac user for your entire adult life, and have not traditionally had much cause to worry about virus issues etc- so to just type three words into your iTerm and wait for your latest library to make itself comfortable in your filesystem takes little effort. This is something I have noticed and am now very mindful of &ndash; but I digress&hellip;</p>
+
+<p>This post is really to draw your attention to a frankly wonderful wee gem I found this week, called &lsquo;Seeing Is Believing&rsquo;, developed by <a href="Mr%20Josh%20Cheek">http://joshcheek.com/seeing_is_believing</a>. Base on an existing gem called <a href="rcodetools">https://rubygems.org/gems/rcodetools</a>, it automagically places a comment at the end of each line of ruby code containing the evaluation. Pretty friggin&#8217; useful for a beginner. (You can see a video of this little beaut being demonstrated <a href="here">http://vimeo.com/73866851</a></p>
+
+<p>So how could this be even better Roi? How about Sublime Text integration? <a href="Well%20hello%20there,%20sexy">https://github.com/JoshCheek/sublime-text-2-seeing-is-believing</a> (there is also support for Textmate 1-2 and Vim)</p>
+
+<p>There is one wee-tiny-little catch &ndash; if you&rsquo;re new at this stuff, the documentation is a little bit sparse (I found the whole rvm wrapper thing a bit mysterious to say the least), so I thought I would do a quick write-up. Now bear in mind that I work with a ruby version of 2.1.1 on a mac using rvm <a href="Ruby%20Version%20Manager">https://rvm.io/rvm/basics</a> so I can only tell you what worked for me, and this is it.</p>
+
+<p>First one must install the gem:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>gem install seeing_is_believing</span></code></pre></td></tr></table></div></figure>
 
 
-<p>Then you need to navigate to <code>cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages</code>
-and clone <code>git clone git://github.com/JoshCheek/sublime-text-2-seeing-is-believing.git SeeingIsBelieving</code>. If this is confusing for you, I would recommend researching into how to navigate your file system using the <a href="command%20line">http://learncodethehardway.org/cli/book/cli-crash-course.html</a> and basic usage of <a href="Git">https://try.github.io</a>.
-Next up, you need to make a wrapper for Sublime (this is the bit that I found confusing), and for this you need to know which version of ruby you are currently running. On my setup, I can type <code>ruby -v</code> and am rewarded with the output <code>ruby 2.1.1p76 (2014-02-24 revision 45161) [x86_64-darwin12.0]</code>. I take the section <code>ruby 2.1.1</code> and type the following into Terminal:</p>
+<p>Then you need to navigate to:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and clone:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/JoshCheek/sublime-text-2-seeing-is-believing.git SeeingIsBelieving</span></code></pre></td></tr></table></div></figure>
+
+
+<p>If this is confusing for you, I would recommend researching into how to navigate your file system using the <a href="command%20line">http://learncodethehardway.org/cli/book/cli-crash-course.html</a> and basic usage of <a href="Git">https://try.github.io</a>.
+Next up, you need to make a wrapper for Sublime (this is the bit that I found confusing), and for this you need to know which version of ruby you are currently running. On my setup, I can type <code>ruby -v</code> and am rewarded with the output:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ruby 2.1.1p76 (2014-02-24 revision 45161) [x86_64-darwin12.0]</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I take the section <code>ruby 2.1.1</code> and type the following into Terminal:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>rvm wrapper ruby-2.1.1 sublime</span></code></pre></td></tr></table></div></figure>
@@ -121,7 +143,14 @@ Next up, you need to make a wrapper for Sublime (this is the bit that I found co
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>and hit the pre-defined keyboard shortcut (⌥ + ⌘ + B on OS X). You can also run the command <code>Evaluate Ruby code with Seeing Is Believing</code> from your command pallete (⌘ + ⇧ + P). Once you do this, you should see the following output:</p>
+<p>Now if you hit the pre-defined keyboard shortcut (⌥ + ⌘ + B on OS X) or run the command:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="no">Evaluate</span> <span class="no">Ruby</span> <span class="n">code</span> <span class="n">with</span> <span class="no">Seeing</span> <span class="no">Is</span> <span class="no">Believing</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>from your command pallete (⌘ + ⇧ + P), you should see the following output:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
