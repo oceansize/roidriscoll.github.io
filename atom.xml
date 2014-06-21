@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[architecture]]></title>
+  <title><![CDATA[brick by brick]]></title>
   <link href="http://roidriscoll.github.io/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-21T14:54:19+01:00</updated>
+  <updated>2014-06-21T14:55:26+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
