@@ -9,8 +9,9 @@
   <meta name="author" content="Roi Driscoll">
 
   
-  <meta name="description" content=" Blog Archive 2014 Octoblog - Initial Commit
-Jun 14 2014 Recent Posts Octoblog - Initial Commit ">
+  <meta name="description" content="Blog Archive 2014 Seeing Is Believing
+Jun 21 2014 Octoblog - Initial Commit
+Jun 14 2014 Recent Posts Seeing Is Believing Octoblog - Initial Commit &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -81,6 +82,16 @@ Jun 14 2014 Recent Posts Octoblog - Initial Commit ">
 
 <article>
   
+<h1><a href="/blog/2014/06/21/seeing-is-believing/">Seeing Is Believing</a></h1>
+<time datetime="2014-06-21T10:55:07+01:00" pubdate><span class='month'>Jun</span> <span class='day'>21</span> <span class='year'>2014</span></time>
+
+
+</article>
+
+
+
+<article>
+  
 <h1><a href="/blog/2014/06/14/octoblog-initial-commit/">Octoblog - Initial Commit</a></h1>
 <time datetime="2014-06-14T20:32:19+01:00" pubdate><span class='month'>Jun</span> <span class='day'>14</span> <span class='year'>2014</span></time>
 
@@ -101,10 +112,43 @@ Jun 14 2014 Recent Posts Octoblog - Initial Commit ">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/06/21/seeing-is-believing/">Seeing Is Believing</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/06/14/octoblog-initial-commit/">Octoblog - Initial Commit</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/roidriscoll">@roidriscoll</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'roidriscoll',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
