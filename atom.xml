@@ -4,7 +4,7 @@
   <title><![CDATA[brick by brick]]></title>
   <link href="http://roidriscoll.github.io/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-22T18:58:09+01:00</updated>
+  <updated>2014-06-22T19:28:12+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
@@ -27,6 +27,8 @@
 <p><a href="https://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149">8 Regular Expressions you should know</a></p>
 
 <p><a href="http://kaleistyleguide.com/">Easier stylesheet docs!</a></p>
+
+<p><a href="http://conqueringthecommandline.com/book">Conquering The Command Line</a></p>
 
 <p><a href="https://github.com/ngauthier/domino">Domino</a> is a gem that makes writing Capybara tests a little easier. You can see a <a href="https://www.youtube.com/watch?v=qRBBbqziylc">Ruby Study Hall demo</a> after the jump.</p>
 
