@@ -4,7 +4,7 @@
   <title><![CDATA[brick by brick]]></title>
   <link href="http://roidriscoll.github.io/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-21T14:55:26+01:00</updated>
+  <updated>2014-06-22T12:10:09+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Focus Links]]></title>
+    <link href="http://roidriscoll.github.io/blog/2014/06/22/focus-links/"/>
+    <updated>2014-06-22T12:06:35+01:00</updated>
+    <id>http://roidriscoll.github.io/blog/2014/06/22/focus-links</id>
+    <content type="html"><![CDATA[<p>For reference:</p>
+
+<p><a href="http://lifehacker.com/5596964/how-to-rebuild-your-attention-span-and-focus">Lifehacker article on focus</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Seeing Is Believing]]></title>
