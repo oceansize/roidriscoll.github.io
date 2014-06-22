@@ -13,7 +13,7 @@
   <meta name="author" content="Roi Driscoll">
 
   
-  <meta name="description" content="All Posts Weekly Links #1 In an attempt to stop hoarding tabs, I&rsquo;m going to leave noteworthy links for week ending 22/6/14 here: Getting &hellip;">
+  <meta name="description" content="All Posts Weekly Links #1 In an attempt to stop hoarding tabs, I&rsquo;m going to leave noteworthy links for week ending 22/6/14 here: written Jun &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,59 +63,6 @@
 
 
 
-<p><a href="https://webdesign.tutsplus.com/tutorials/getting-started-with-octopress--webdesign-11442">Getting started with Octopress</a></p>
-
-
-
-
-<p><a href="http://lifehacker.com/5596964/how-to-rebuild-your-attention-span-and-focus">Lifehacker article on focus</a></p>
-
-
-
-
-<p><a href="https://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149">8 Regular Expressions you should know</a></p>
-
-
-
-
-<p><a href="http://kaleistyleguide.com/">Easier stylesheet docs!</a></p>
-
-
-
-
-<p><a href="http://conqueringthecommandline.com/book">Conquering The Command Line</a></p>
-
-
-
-
-<p><a href="https://github.com/ngauthier/domino">Domino</a> is a gem that makes writing Capybara tests a little easier. You can see a <a href="https://www.youtube.com/watch?v=qRBBbqziylc">Ruby Study Hall demo</a> after the jump.</p>
-
-
-
-
-<p><a href="http://macdevelopertips.com/ruby/using-a-stack-with-ruby.html">Using a stack with Ruby</a></p>
-
-
-
-
-<p><a href="http://computinglife.wordpress.com/2008/11/20/why-do-hash-functions-use-prime-numbers/">Why do hash functions use prime numbers?</a> courtesy of <a href="https://github.com/jpatel531">Jamie</a></p>
-
-
-
-
-<p><a href="http://larry-price.com/blog/2013/01/19/testing-a-sinatra-app-with-capybara/">Testing a Sinatra app with Capybara</a></p>
-
-
-
-
-<p>Ruby&rsquo;s <a href="http://www.ruby-doc.org/core-2.1.2/Struct.html">Struct</a> method.</p>
-
-
-
-
-<p><a href="http://host.madison.com/entertainment/arts_and_theatre/books/q-a-make-friends-with-math/article_2da7c6f3-ba4c-5f02-8db3-b0fbc7e1d287.html">Make friends with Math</a></p>
-
-
   </p>
   <span class="meta">
     written 
@@ -138,6 +85,8 @@
   </span>
 
   
+    <a class="full-article-link pull-right" rel="full-article" href="/blog/2014/06/22/weekly-links/">Read on &rarr;</a>
+  
 </article>
 
         </div>
@@ -153,99 +102,6 @@
     <p>Since embarking on my programming journey, I have to admit &ndash; I have gone a little gem-crazy. It&rsquo;s just so EASY to type &lsquo;gem install the_promise_of_magic&rsquo;. I think that&rsquo;s one of the more dangerous aspects of living in the command line. When I&rsquo;m considering installing something via the browser, there are a multitude of clues to help you ascertain whether or not a binary is legit, not least how polished their site looks.</p>
 
 
-
-
-<p>There is also a kind of false sense of security that can set in when you&rsquo;ve been a Mac user for your entire adult life, and have not traditionally had much cause to worry about virus issues etc- so to just type three words into your iTerm and wait for your latest library to make itself comfortable in your filesystem takes little effort. This is something I have noticed and am now very mindful of &ndash; but I digress&hellip;</p>
-
-
-
-
-<p>This post is really to draw your attention to a frankly wonderful wee gem I found this week, called &lsquo;Seeing Is Believing&rsquo;, developed by <a href="http://joshcheek.com/seeing_is_believing">Mr Josh Cheek</a>. Based on an existing gem called <a href="https://rubygems.org/gems/rcodetools">rcodetools</a>, it automagically places a comment at the end of each line of ruby code containing the evaluation. Pretty friggin&#8217; useful for a beginner. You can see a video of this little beaut being demonstrated <a href="http://vimeo.com/73866851">here</a>.</p>
-
-
-
-
-<p>So how could this be even better Roi? How about Sublime Text integration? <a href="https://github.com/JoshCheek/sublime-text-2-seeing-is-believing">Ding Dong!</a> (Josh also supports Textmate 1-2 and Vim)</p>
-
-
-
-
-<p>There is one wee-tiny-little catch &ndash; if you&rsquo;re new at this stuff, the documentation is a little bit sparse (I found the whole rvm wrapper thing a bit mysterious to say the least), so I thought I would do a quick write-up. Now bear in mind that I work with a ruby version of 2.1.1 on a mac using rvm <a href="https://rvm.io/rvm/basics">Ruby Version Manager</a> so I can only tell you what worked for me, and this is it.</p>
-
-
-
-
-<p>First one must install the gem:</p>
-
-
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>gem install seeing_is_believing</span></code></pre></td></tr></table></div></figure></p>
-
-<p>Then you need to navigate to the following folder:</p>
-
-
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages</span></code></pre></td></tr></table></div></figure></p>
-
-<p>and inside of that directory, clone this repo:</p>
-
-
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/JoshCheek/sublime-text-2-seeing-is-believing.git SeeingIsBelieving</span></code></pre></td></tr></table></div></figure></p>
-
-<p>If this is confusing for you, I would recommend researching into how to navigate your file system using the <a href="http://learncodethehardway.org/cli/book/cli-crash-course.html">command line</a> and basic usage of <a href="https://try.github.io">Git</a>.
-Next up, you need to make a wrapper for Sublime (this is the bit that I found confusing), and for this you need to know which version of ruby you are currently running. On my setup, I can type <code>ruby -v</code> and am rewarded with the output:</p>
-
-
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>ruby 2.1.1p76 (2014-02-24 revision 45161) [x86_64-darwin12.0]</span></code></pre></td></tr></table></div></figure></p>
-
-<p>I take the section <code>ruby 2.1.1</code> and type the following into Terminal:</p>
-
-
-<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rvm wrapper ruby-2.1.1 sublime</span></code></pre></td></tr></table></div></figure></p>
-
-<p>Restart Sublime Text, and enter some ruby code:</p>
-
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="mi">10</span><span class="o">.</span><span class="n">times</span> <span class="k">do</span> <span class="o">|</span><span class="n">i</span><span class="o">|</span>
-</span><span class='line'>  <span class="n">i</span> <span class="o">*</span> <span class="mi">2</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure></p>
-
-<p>Now if you hit the pre-defined keyboard shortcut (⌥ + ⌘ + B on OS X) or run the command:</p>
-
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="no">Evaluate</span> <span class="no">Ruby</span> <span class="n">code</span> <span class="n">with</span> <span class="no">Seeing</span> <span class="no">Is</span> <span class="no">Believing</span>
-</span></code></pre></td></tr></table></div></figure></p>
-
-<p>from your command pallete (⌘ + ⇧ + P), you should see the following output:</p>
-
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="mi">10</span><span class="o">.</span><span class="n">times</span> <span class="k">do</span> <span class="o">|</span><span class="n">i</span><span class="o">|</span>
-</span><span class='line'>  <span class="n">i</span> <span class="o">*</span> <span class="mi">2</span>          <span class="c1"># =&gt; 0, 2, 4, 6, 8, 10, 12, 14, 16, 18</span>
-</span><span class='line'><span class="k">end</span>              <span class="c1"># =&gt; 10</span>
-</span></code></pre></td></tr></table></div></figure></p>
-
-<p>To remove the comments, run <code>Remove Seeing Is Believing annotations</code> or press (⌥ + ⌘ + V on OS X). And you are back to the original.</p>
-
-
-
-
-<p>Well there you have it &ndash; instant win! I strongly suggest that you take the time to watch Josh&rsquo;s video (and browse the documention I linked to earlier) &ndash; I have directly referenced a lot of the material for this article and I cannot recommend this enough as a tool to get your head around what ruby is doing when it evaluates your code.</p>
-
-
-
-
-<p>Happy coding! ^_^</p>
 
 
   </p>
@@ -269,6 +125,8 @@ Next up, you need to make a wrapper for Sublime (this is the bit that I found co
 
   </span>
 
+  
+    <a class="full-article-link pull-right" rel="full-article" href="/blog/2014/06/21/seeing-is-believing/">Read on &rarr;</a>
   
 </article>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[brick by brick]]></title>
   <link href="http://roidriscoll.github.io/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-22T19:28:12+01:00</updated>
+  <updated>2014-06-22T19:40:39+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
@@ -19,6 +19,9 @@
     <updated>2014-06-22T12:06:35+01:00</updated>
     <id>http://roidriscoll.github.io/blog/2014/06/22/weekly-links</id>
     <content type="html"><![CDATA[<p>In an attempt to stop hoarding tabs, I&rsquo;m going to leave noteworthy links for week ending 22/6/14 here:</p>
+
+<!--more-->
+
 
 <p><a href="https://webdesign.tutsplus.com/tutorials/getting-started-with-octopress--webdesign-11442">Getting started with Octopress</a></p>
 
@@ -50,6 +53,9 @@
     <updated>2014-06-21T10:55:07+01:00</updated>
     <id>http://roidriscoll.github.io/blog/2014/06/21/seeing-is-believing</id>
     <content type="html"><![CDATA[<p>Since embarking on my programming journey, I have to admit &ndash; I have gone a little gem-crazy. It&rsquo;s just so EASY to type &lsquo;gem install the_promise_of_magic&rsquo;. I think that&rsquo;s one of the more dangerous aspects of living in the command line. When I&rsquo;m considering installing something via the browser, there are a multitude of clues to help you ascertain whether or not a binary is legit, not least how polished their site looks.</p>
+
+<!--more-->
+
 
 <p>There is also a kind of false sense of security that can set in when you&rsquo;ve been a Mac user for your entire adult life, and have not traditionally had much cause to worry about virus issues etc- so to just type three words into your iTerm and wait for your latest library to make itself comfortable in your filesystem takes little effort. This is something I have noticed and am now very mindful of &ndash; but I digress&hellip;</p>
 
