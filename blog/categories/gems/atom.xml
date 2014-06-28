@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Gems | brick by brick]]></title>
   <link href="http://roidriscoll.github.io/blog/categories/gems/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-22T22:46:34+01:00</updated>
+  <updated>2014-06-28T01:20:42+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
@@ -52,7 +52,15 @@ I take the section <code>ruby 2.1.1</code> and type the following into Terminal:
 <code>
 rvm wrapper ruby-2.1.1 sublime
 </code>
-Restart Sublime Text, and enter some ruby code:
+Now, at this point you need to run the following command in terminal : <code>which sublime_ruby</code>, which will return a line like this: <code>/Users/your-username/.rvm/bin/sublime_ruby</code>
+At this point, you need to open &lsquo;SeeingIsBelieving/Seeing Is Believing.sublime-settings&rsquo; in Sublime Text and comment out the line <code>"RBENV_VERSION": "2.0.0-p0"</code> and the MOST important part: delete <code>"ruby_command": "~/.rbenv/shims/ruby",</code> and replace with the following:</p>
+
+<p><code>
+"ruby_command": "~/.rvm/bin/sublime_ruby",
+</code>
+where the line <code>"~/.rvm/bin/sublime_ruby",</code> matches the line you got when you typed in <code>which sublime_ruby</code> &ndash; remember that? ;)</p>
+
+<p>Restart Sublime Text, and enter some ruby code:
 <code>ruby
 10.times do |i|
   i * 2

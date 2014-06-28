@@ -4,7 +4,7 @@
   <title><![CDATA[brick by brick]]></title>
   <link href="http://roidriscoll.github.io/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-22T22:46:34+01:00</updated>
+  <updated>2014-06-28T01:20:42+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Trouble With Javascript]]></title>
+    <link href="http://roidriscoll.github.io/blog/2014/06/23/the-trouble-with-javascript/"/>
+    <updated>2014-06-23T23:18:05+01:00</updated>
+    <id>http://roidriscoll.github.io/blog/2014/06/23/the-trouble-with-javascript</id>
+    <content type="html"><![CDATA[<p>&hellip;is that it&rsquo;s ugly as sin. A face only a Mother could love. It looks like it fell out of the ugly tree, and hit every branch on the way down. Unfortunately for me, it also seems to be an essential part of being a Web Developer, so I guess I&rsquo;ll just have to suck it up. <!-- more --></p>
+
+<p>Part of it is that for the last couple of months I&rsquo;ve been swimming in the tranquil lakes of Ruby &ndash; one of the most elegant languages on the planet. But when you see how javascript can enhance a webpage it quickly becomes irrelevant how crap one has to wade through: if you want to engage with your visitors via the browser, you need javascript.</p>
+
+<p>The first real difference to strike me was the catch-all term <code>function()</code>. According to our tutor <a href="http://alexpeattie.com/blog/">Alex</a>, there are three main uses for this particular piece of syntax:
+* To define a Class
+* Define a Method
+* Take the place of &lsquo;do &amp; end&rsquo; (as would be seen in Ruby)</p>
+
+<p>Wanna see something really counter-intuitive for a Rubyist? How about a method&hellip;</p>
+
+<p>In Ruby:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">hi_how_are_you</span>
+</span><span class='line'>  <span class="s2">&quot;fine, thanks!&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In Javascript:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">This</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">hi_how_are_you</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">return</span> <span class="s2">&quot;fine, thanks!&quot;</span>
+</span><span class='line'><span class="p">};</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TNT - Tortoise]]></title>
@@ -111,6 +153,15 @@ Next up, you need to make a wrapper for Sublime (this is the bit that I found co
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>rvm wrapper ruby-2.1.1 sublime</span></code></pre></td></tr></table></div></figure>
 
+
+<p>Now, at this point you need to run the following command in terminal : <code>which sublime_ruby</code>, which will return a line like this: <code>/Users/your-username/.rvm/bin/sublime_ruby</code>
+At this point, you need to open &lsquo;SeeingIsBelieving/Seeing Is Believing.sublime-settings&rsquo; in Sublime Text and comment out the line <code>"RBENV_VERSION": "2.0.0-p0"</code> and the MOST important part: delete <code>"ruby_command": "~/.rbenv/shims/ruby",</code> and replace with the following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>"ruby_command": "~/.rvm/bin/sublime_ruby",</span></code></pre></td></tr></table></div></figure>
+
+
+<p>where the line <code>"~/.rvm/bin/sublime_ruby",</code> matches the line you got when you typed in <code>which sublime_ruby</code> &ndash; remember that? ;)</p>
 
 <p>Restart Sublime Text, and enter some ruby code:</p>
 

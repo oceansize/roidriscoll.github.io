@@ -114,6 +114,15 @@ Next up, you need to make a wrapper for Sublime (this is the bit that I found co
 </pre></td><td class='code'><pre><code class=''><span class='line'>rvm wrapper ruby-2.1.1 sublime</span></code></pre></td></tr></table></div></figure>
 
 
+<p>Now, at this point you need to run the following command in terminal : <code>which sublime_ruby</code>, which will return a line like this: <code>/Users/your-username/.rvm/bin/sublime_ruby</code>
+At this point, you need to open &lsquo;SeeingIsBelieving/Seeing Is Believing.sublime-settings&rsquo; in Sublime Text and comment out the line <code>"RBENV_VERSION": "2.0.0-p0"</code> and the MOST important part: delete <code>"ruby_command": "~/.rbenv/shims/ruby",</code> and replace with the following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>"ruby_command": "~/.rvm/bin/sublime_ruby",</span></code></pre></td></tr></table></div></figure>
+
+
+<p>where the line <code>"~/.rvm/bin/sublime_ruby",</code> matches the line you got when you typed in <code>which sublime_ruby</code> &ndash; remember that? ;)</p>
+
 <p>Restart Sublime Text, and enter some ruby code:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
