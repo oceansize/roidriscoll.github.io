@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Music | brick by brick]]></title>
   <link href="http://roidriscoll.github.io/blog/categories/music/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-06-28T12:13:02+01:00</updated>
+  <updated>2014-08-25T15:28:48+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Playlist - Husker Don't]]></title>
+    <link href="http://roidriscoll.github.io/blog/2014/08/25/coffee-mug-decendents/"/>
+    <updated>2014-08-25T15:26:45+01:00</updated>
+    <id>http://roidriscoll.github.io/blog/2014/08/25/coffee-mug-decendents</id>
+    <content type="html"><![CDATA[<p><div class='spotify_play_button'>
+<iframe src='https://embed.spotify.com/?uri=spotify:user:skullscraper:playlist:3DTSsb8k2qXhroUjG5jR1O ' width='300' height='380' frameborder='0' allowtransparency='true'></iframe>
+</div></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TNT - Tortoise]]></title>
