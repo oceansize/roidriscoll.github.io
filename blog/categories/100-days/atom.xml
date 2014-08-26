@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 100_days | brick by brick]]></title>
   <link href="http://roidriscoll.github.io/blog/categories/100-days/atom.xml" rel="self"/>
   <link href="http://roidriscoll.github.io/"/>
-  <updated>2014-08-25T15:43:15+01:00</updated>
+  <updated>2014-08-27T00:12:00+01:00</updated>
   <id>http://roidriscoll.github.io/</id>
   <author>
     <name><![CDATA[Roi Driscoll]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lost Without Crayola]]></title>
+    <link href="http://roidriscoll.github.io/blog/2014/08/26/lost-without-crayola/"/>
+    <updated>2014-08-26T23:58:51+01:00</updated>
+    <id>http://roidriscoll.github.io/blog/2014/08/26/lost-without-crayola</id>
+    <content type="html"><![CDATA[<p>I come from a creative background. For all the weight that sentence carries, to me the most important meaning is that when left alone to my own devices I am usually able to make something with the tools available.</p>
+
+<p>This is not the result of a carefree and indulgent childhood, but more a richochet of pure stubborness. I did not grow up drawing every evening after school, or taking art classes (I attended art school for a year when I was already working in industry as a Designer). Creativity was always something I was resigned to work at, which was fine. Until I learnt to code.</p>
+
+<p>When you attend an institution like Makers Academy, you don&rsquo;t come out of the other side as a world-class coder. You&rsquo;re not supposed to &ndash; coding is an art form like painting, sculpture or playing the Cello. You only get great by putting the hours in, and paying attention to each little thing you do in those hours. But you do come out with tools. You have the ability to move code into thousands of different shapes, to be able to mould and bend bits and bytes to do your bidding &ndash; even if the elegance and eloquence of experience temporarily eludes you&hellip;</p>
+
+<p>But now I find myself in an odd predicament. I have tools, and no idea how to wield them. Never before have I had such power before my fingertips, and no spark of inspiration with which to apply them &ndash; and it&rsquo;s heart-wrenching. To build for the sake of building &ndash; to play in my text editor&hellip;</p>
+
+<p>As these thoughts haunt me I ask myself why this is so &ndash; and somewhere between now and the next hundred days, I shall bring forth an answer, and share it with you so that you might avoid such frustrations.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[100 Days]]></title>
