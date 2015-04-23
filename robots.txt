@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://roidriscoll.github.io/sitemap.xml 
