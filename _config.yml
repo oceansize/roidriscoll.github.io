@@ -1,0 +1,21 @@
+title:            d2ecd0ling around in the dark
+description:      Bassist, Designer & Coder living in London
+url:              http://roidriscoll.co.uk
+permalink:        pretty
+highlighter:      pygments
+markdown:         rdiscount
+folder:           stuff
+rdiscount:
+  extensions:     [smart]
+google_analytics: UA-10622245-2
+timezone:         Europe/London
+paginate:         5
+links:
+  - name:         About
+    url:          /about
+  - name:         GitHub
+    url:          http://github.com/roidriscoll
+  - name:         Twitter
+    url:          http://twitter.com/roidriscoll
+  - name:         Instagram
+    url:          http://instagram.com/roidriscoll

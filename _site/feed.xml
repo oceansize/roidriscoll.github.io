@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>d2ecd0ling around in the dark</title>
+    <description>Bassist, Designer & Coder living in London</description>
+    <link>http://roidriscoll.co.uk</link>
+    <atom:link href="http://roidriscoll.co.uk/d2ecd0d.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>New Site</title>
+        <description>&lt;p&gt;I figured it was about time I got to blogging.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Mon, 25 May 2015 21:16:02 +0100</pubDate>
+        <link>http://roidriscoll.co.uk/2015/05/25/new-site/</link>
+        <guid isPermaLink="true">http://roidriscoll.co.uk/2015/05/25/new-site/</guid>
+      </item>
+    
+  </channel>
+</rss>
