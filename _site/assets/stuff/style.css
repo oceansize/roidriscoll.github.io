@@ -73,12 +73,6 @@ footer hr {
   .hex-shape:before {
     border-bottom: 7.2px solid transparent;
     border-top: 0; }
-  .hex-shape:hover {
-    -webkit-transform: rotate(720deg);
-    -moz-transform: rotate(720deg);
-    -ms-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
-    transform: rotate(720deg); }
   .hex-shape.muted {
     background-color: #ccc; }
   .hex-shape.small {
@@ -112,12 +106,6 @@ footer hr {
     .hex-shape.small:before {
       border-bottom: 4.2px solid transparent;
       border-top: 0; }
-    .hex-shape.small:hover {
-      -webkit-transform: rotate(720deg);
-      -moz-transform: rotate(720deg);
-      -ms-transform: rotate(720deg);
-      -o-transform: rotate(720deg);
-      transform: rotate(720deg); }
   .hex-shape.big {
     margin: 20px 0;
     -webkit-transition: 1s;
@@ -149,12 +137,6 @@ footer hr {
     .hex-shape.big:before {
       border-bottom: 13.2px solid transparent;
       border-top: 0; }
-    .hex-shape.big:hover {
-      -webkit-transform: rotate(720deg);
-      -moz-transform: rotate(720deg);
-      -ms-transform: rotate(720deg);
-      -o-transform: rotate(720deg);
-      transform: rotate(720deg); }
   .hex-shape.huge {
     -webkit-transition: 1s;
     -moz-transition: 1s;
@@ -189,13 +171,6 @@ footer hr {
     .hex-shape.huge:before {
       border-bottom: 42px solid transparent;
       border-top: 0; }
-    .hex-shape.huge:hover {
-      -webkit-transform: rotate(720deg);
-      -moz-transform: rotate(720deg);
-      -ms-transform: rotate(720deg);
-      -o-transform: rotate(720deg);
-      transform: rotate(720deg); }
-
 a, .link {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
