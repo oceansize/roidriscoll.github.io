@@ -1,5 +1,5 @@
 title:            Feeling around in the dark
-description:      Bassist, Designer & Coder living in London
+description:      Bassist & Programmer living in London
 url:              http://roidriscoll.co.uk
 permalink:        pretty
 highlighter:      pygments
@@ -19,3 +19,4 @@ links:
     url:          http://twitter.com/roidriscoll
   - name:         Instagram
     url:          http://instagram.com/roidriscoll
+gems: [jekyll-paginate]

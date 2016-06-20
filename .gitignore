@@ -1,3 +1,4 @@
 workfiles
 *.psd
 CNAME
+*.DS_Store
